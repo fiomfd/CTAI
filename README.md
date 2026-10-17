@@ -1,10 +1,12 @@
-# CTAI
-This repository presents a framework integrating generative AI into interactive computational notebooks—specifically Pluto for Julia and Jupyter for Python—to foster mathematical and computational thinking in vector geometry and linear algebra. Addressing secondary to early undergraduate curricula in Singapore, the system enables learners to actively explore basic concepts—such as 3D lines and planes, linear mapping, and singular value decomposition and the Haar wavelet decomposition—through real-time parameter manipulation using reactive UI widgets. The system also provides calculating exercises and solutions on matrix operations, row echelon forms, determinants, and inverse matrices. Some solutions are created by generative AI.  To overcome the hallucination and opacity risks of generative AI in STEM education, our environment pairs an LLM-based problem-and-solution generator with a deterministic computer algebra backend that automatically verifies AI outputs. 
+# CTAI: Computational Thinking and AI-Integrated Interactive Mathematics
 
-- ai-pluto.jl: Pluto for Julia on computers
+This repository presents a framework that integrates generative AI into interactive computational notebooks—specifically Pluto for Julia and Jupyter for Python—to foster mathematical and computational thinking in vector geometry and linear algebra. 
 
-- ai-jupyter.ipynb: Jupyter Notebook for Python on computers
+Tailored to secondary and early undergraduate mathematics curricula (including Singapore H2 and foundational university courses), the system enables learners to actively explore key geometric and algebraic concepts—such as 3D lines and planes, linear mappings, singular value decomposition (SVD), and Haar wavelet transforms—through real-time parameter manipulation using reactive UI widgets. 
 
-- ai-colab.ipynb: Jupyter Notebook for Python on the Google Colab
+The environment also provides automated exercises and step-by-step solutions for matrix operations, row echelon forms, determinants, and matrix inverses. To mitigate the risks of hallucination and opacity inherent to generative AI in STEM education, the framework pairs an LLM-based problem-and-solution generator with a deterministic computer algebra backend that rigorously verifies all AI-generated outputs.
 
-    [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fiomfd/CTAI/)
+### Notebooks
+- `ai-pluto.jl`: Pluto notebook for Julia (local execution)
+- `ai-jupyter.ipynb`: Jupyter notebook for Python (local execution)
+- `ai-colab.ipynb`: Jupyter notebook configured for Google Colab
