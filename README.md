@@ -10,3 +10,5 @@ The environment also provides automated exercises and step-by-step solutions for
 - `ai-pluto.jl`: Pluto notebook for Julia (local execution)
 - `ai-jupyter.ipynb`: Jupyter notebook for Python (local execution)
 - `ai-colab.ipynb`: Jupyter notebook configured for Google Colab
+
+[![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fiomfd/CTAI/)
